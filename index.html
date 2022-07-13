@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>crypto coins</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+           crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="headerClass">
+        <p>crypto coins</p>
+    </header>
+    <div class="parallax"></div>
+    <div class="topnav">
+        <a href="#home" id="homeLink">Home</a>
+        <a href="#liveReports" id="liveReportsLink">Live Reports</a>
+        <a href="#about" id="aboutLink">About</a>
+        <div class="search-container">
+            <input type="text" id="searchTxt" placeholder="Search..">
+            <button id="searchBtn" type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+    <br>
+    <div class="sections">
+        <section id="homeSection">
+            <div id="showCrypto" class="row row-cols-1 row-cols-md-3 g-3"></div>
+            <div id="selectedCoinsReport">
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="exampleModalLabel">You must delete one of the coins</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body" id="displayReportModal"></div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" >Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="liveReportSection">
+            <h2>live reports</h2>
+        </section>
+
+        <section id="aboutSection">
+            <div id="aboutMeDiv">
+                <p>welcome to my world!</p>
+                <h1>Hi! I'm Liel yohanan.</h1>
+                <h2>Full Stack Developer</h2>
+                <p>I'm 23 years old, happily married and having fun <br> from coding and running!</p>
+
+            </div>
+            <img id="myPic" src="assets/myPic.jpeg">
+
+            <div id="aboutTheProjectDiv">
+                <div id="aboutTheProjectContent">
+                    <h1>About The Project</h1>
+                    <br>
+                    <p>
+                        The project is about crypto coins, i used a free API to display nicely all crypto coins and them
+                        cost in some different type of coins.
+                        <br>
+                        In this project i use HTML, CSS, JS, BOOTSTRAP and jQuery.
+                    </p>
+                </div>
+                <img src="assets/littlePro.jpeg" id="littleProjectPic">
+            </div>
+            <div id="endOfAboutSectionDiv">
+                <p>Find me on <a href="https://www.linkedin.com/in/liel-kalandarov/">linkedin</a>
+                </p>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
